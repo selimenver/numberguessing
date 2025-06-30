@@ -1,7 +1,7 @@
 #make a number guessing game
 import random
 attempt = 0
-numbers = [1,2,3,4,5,6,7,8,9,10]
+numbers = [0,1,2,3,4,5,6,7,8,9,10]
 print("welcome to the number guessing game.")
 print("find the number i choose from 0 to 10")
 correct = random.choice(numbers)
